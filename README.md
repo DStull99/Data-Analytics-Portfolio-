@@ -1,5 +1,5 @@
 # Data-Analytics-Portfolio-
-This is my data analytics portfolio of projects I have worked on in the past. Tools used include Excel, SQL, Tableau, Python &amp; R.
+This is my data analytics portfolio of some projects I have worked on in the past. Tools used include Excel, SQL, Tableau, Python &amp; R.
 
 ## Project 1: Portfolio Analysis & Optimization Using Excel
 *Skills & Tools Used: Web Scraping, Linear Optimization, Scenario Analysis, Statistical Analysis, Excel Data Analysis ToolPak*
