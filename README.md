@@ -82,7 +82,7 @@ ORDER BY dm.emp_no , calendar_year;
 
 ![Visualization 2](https://user-images.githubusercontent.com/29240952/203175911-4856b0c6-fdeb-4e34-a236-0a8e305551a8.PNG)
 
-## Task 3: Compare the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department.
+### Task 3: Compare the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department.
 **Code:**
 
 SELECT e.gender, d.dept_name, ROUND(AVG(s.salary), 2) AS salary, YEAR(s.from_date) AS calendar_year
@@ -103,7 +103,7 @@ ORDER BY d.dept_no;
 
 ![Visualization 3](https://user-images.githubusercontent.com/29240952/203175941-eb90b4e2-433c-4bff-8f0b-49e3ea12b664.PNG)
 
-## Task 4: Create an SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure.
+### Task 4: Create an SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure.
 **Code:**
 
 DROP PROCEDURE IF EXISTS filter_salary;
